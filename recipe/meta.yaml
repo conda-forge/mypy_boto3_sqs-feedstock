@@ -1,5 +1,5 @@
 {% set name = "mypy_boto3_sqs" %}
-{% set version = "1.18.9" %}
+{% set version = "1.18.10" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mypy-boto3-sqs-{{ version }}.tar.gz
-  sha256: 7f45b321d12725642384b7730d929994628d2f993ff914797e41966fd464c0e8
+  sha256: 9b85be9da79544d2e75d99cb83d7316221842853d5898adadca066619bd59e20
 
 build:
   number: 0
